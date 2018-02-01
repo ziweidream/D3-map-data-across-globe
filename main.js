@@ -7,7 +7,7 @@ function getData(getDataCallBack) {
 
 f = function(data) {
   const meteorites = data.filter(x => x.geometry != null);
-  console.log(meteorites);
+ 
   // width and height
   var w = 960;
   var h = 500;
