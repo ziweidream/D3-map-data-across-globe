@@ -1,0 +1,29 @@
+body {
+  background-color: #3333ff;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#source {
+  text-align: center;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.d3-tip:after {
+  line-height: 1;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 14px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
