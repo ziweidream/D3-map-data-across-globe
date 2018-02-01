@@ -29,7 +29,8 @@ f = function(data) {
                     + "<br>" + "Reclat: " + d.properties.reclat;
   });
   svg.call(tool_tip);
-  //create a world map
+  //create a world map - this method was based on an online D3 example (http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f)
+  //on 1 Feb, 2018
   d3.json(countries, function(json) {
     svg.selectAll("path").data(countries.features).enter().append("path").attr("d", path).style("fill", "#c3d9ee").style("stroke", "white");
   });
